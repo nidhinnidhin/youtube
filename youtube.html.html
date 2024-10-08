@@ -1,0 +1,353 @@
+<!DOCTYPE html>
+<html>
+    <head>
+<title>YOUTUBE.com Clone</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css">
+
+        <link rel="stylesheet" href="styles/header.css">
+        <link rel="stylesheet" href="styles/sidebar.css">
+        <link rel="stylesheet" href="styles/video-grid.css">
+        <link rel="stylesheet" href="styles/general.css">
+    </head>
+
+    <body>
+        <Header class="header">
+            <div class="left-section">
+                <img class="menu" src="icons/options.svg">
+                <img class="youtube-logo" src="icons/youtube-logo.svg">
+            </div>
+            <div class="middle-section">
+                <input class="search-bar" type="text" placeholder="Search">
+                <button class="search-button">
+                    <img class="search-icon" src="icons/search-icon.svg">
+                    <div class="tooltip">Search</div>
+                </button>
+                <button class="voice-search-button">
+                    <img class="voice-search-icon" src="icons/voice-search-icon.svg">
+                    <div class="tooltip">Search with your voice</div>
+                  </button>
+            </div>
+            <div class="right-section">
+        <div class="upload-icon-container">
+          <img class="upload-icon" src="icons/upload.svg">
+          <div class="tooltip">Create</div>
+        </div>
+        <img class="youtube-apps-icon" src="icons/youtube-apps.svg">
+        <div>
+          <img class="notifications-icon" src="icons/notifications.svg">
+         </div>
+        <div>
+        <img class="current-user-picture" src="channel-pictures/profile.jpeg">
+      </div>
+    </header>
+
+    <nav class="sidebar">
+      <div class="sidebar-link">
+        <img src="icons/home.svg">
+        <div>Home</div>
+      </div>
+      <div class="sidebar-link">
+        <img src="icons/shorts.svg">
+        <div>Shorts</div>
+      </div>
+      <div class="sidebar-link">
+        <img src="icons/subscriptions.svg">
+        <div>Subscriptions</div>
+
+      </div>
+      <div class="sidebar-link">
+        <img src="icons/you.svg">
+        <div>You</div>
+
+      </div>
+
+    </nav>
+
+   <main>
+    <section class="video-grid">
+      <div class="video-preview">
+        <div class="thumbnail-row">
+          <img class="thumbnail" src="channel-pictures/thumb1.webp">
+          <div class="video-time">10:04</div>
+        </div>
+          <div class="video-info-grid">
+            <div class="channel-picture">
+              <img class="profile-picture" src="channel-pictures/channel1.jpeg">
+            </div>
+              <div class="video-info">
+                <p class="video-title">
+                  Build your AI Startup with DataStax Astra DB in just 24 hours.
+                </p>
+                  <p class="video-author">
+                    Adrian Twarog
+                  </p> 
+                    <p class="video-stats">
+                      10M views &#183; 10 months ago
+                    </p>
+              </div>
+          </div>
+      </div>
+
+      
+      <div class="video-preview">
+        <div class="thumbnail-row">
+          <img class="thumbnail" src="channel-pictures/thumb2.webp">
+          <div class="video-time">33:59</div>
+        </div>
+          <div class="video-info-grid">
+            <div class="channel-picture">
+              <img class="profile-picture" src="channel-pictures/channel2.jpeg">
+            </div>
+              <div class="video-info">
+                <p class="video-title">
+                 Build an App to help the local food scene-Web Dev Challenge S1E5
+                </p>
+                  <p class="video-author">
+                    Learn With Jason
+                  </p> 
+                    <p class="video-stats">
+                      46K views &#183; 2 weeks ago
+                    </p>
+              </div>
+          </div>
+      </div>
+
+      <div class="video-preview">
+        <div class="thumbnail-row">
+          <img class="thumbnail" src="channel-pictures/thumb3.webp">
+          <div class="video-time">2:45:51</div>
+        </div>
+          <div class="video-info-grid">
+            <div class="channel-picture">
+              <img class="profile-picture" src="channel-pictures/channel3.jpeg">
+            </div>
+              <div class="video-info">
+                <p class="video-title">
+                  NEW MEMBER-GANG DRESS REVEAL-FINAL RDC MEETING
+                </p>
+                  <p class="video-author">
+                    Eagle Gaming &#10003;
+                  </p> 
+                    <p class="video-stats">
+                     232K views &#183; 1 year ago
+                    </p>
+              </div>
+          </div>
+      </div>
+
+      <div class="video-preview">
+        <div class="thumbnail-row">
+          <img class="thumbnail" src="channel-pictures/ddd.webp">
+          <div class="video-time">50:33</div>
+        </div>
+          <div class="video-info-grid">
+            <div class="channel-picture">
+              <img class="profile-picture" src="channel-pictures/channel4.jpeg">
+            </div>
+              <div class="video-info">
+                <p class="video-title">
+                  DAYSGONE Gameplay Day-5
+                </p>
+                  <p class="video-author">
+                    S3 GAMER
+                  </p> 
+                    <p class="video-stats">
+                      45K views &#183; 2 months ago
+                    </p>
+              </div>
+          </div>
+      </div>
+
+      <div class="video-preview">
+        <div class="thumbnail-row">
+          <img class="thumbnail" src="channel-pictures/thump5.webp">
+          <div class="video-time">19:47</div>
+        </div>
+          <div class="video-info-grid">
+            <div class="channel-picture">
+              <img class="profile-picture" src="channel-pictures/channel5.jpeg">
+            </div>
+              <div class="video-info">
+                <p class="video-title">
+                  FISH BIRIYANI/HOW TO MAKE KERALA STYLE MEEN...
+                </p>
+                  <p class="video-author">
+                    BoomBaangh &#10003;
+                  </p> 
+                    <p class="video-stats">
+                      100K views &#183; 1 week ago
+                    </p>
+              </div>
+          </div>
+      </div>
+      <div class="video-preview">
+        <div class="thumbnail-row">
+          <img class="thumbnail" src="channel-pictures/thumb6.webp">
+          <div class="video-time">5:23:27</div>
+        </div>
+          <div class="video-info-grid">
+            <div class="channel-picture">
+              <img class="profile-picture" src="channel-pictures/channel6.jpeg">
+            </div>
+              <div class="video-info">
+                <p class="video-title">
+                  5% power sleep deprived 
+                  #Letsbuildvalocommunity
+                </p>
+                  <p class="video-author">
+                   MenAtArms Gaming
+                  </p> 
+                    <p class="video-stats">
+                      15K views &#183; 3 days ago
+                    </p>
+              </div>
+          </div>
+      </div>
+
+      <div class="video-preview">
+        <div class="thumbnail-row">
+          <img class="thumbnail" src="channel-pictures/thumb7.webp">
+          <div class="video-time">20:15</div>
+        </div>
+          <div class="video-info-grid">
+            <div class="channel-picture">
+              <img class="profile-picture" src="channel-pictures/channel7.jpeg">
+            </div>
+              <div class="video-info">
+                <p class="video-title">
+                  Build your Portfolio Using HTML and CSS
+                </p>
+                  <p class="video-author">
+                    Code with Stan
+                  </p> 
+                    <p class="video-stats">
+                      20K views &#183; 10 months ago
+                    </p>
+              </div>
+          </div>
+      </div>
+
+      <div class="video-preview">
+        <div class="thumbnail-row">
+          <img class="thumbnail" src="channel-pictures/thumb8.webp">
+          <div class="video-time">20:14</div>
+        </div>
+          <div class="video-info-grid">
+            <div class="channel-picture">
+              <img class="profile-picture" src="channel-pictures/channel8.jpeg">
+            </div>
+              <div class="video-info">
+                <p class="video-title">
+                  First Tatto Experiance-Vlog
+                </p>
+                  <p class="video-author">
+                  Dreamer vlogs
+                  </p> 
+                    <p class="video-stats">
+                      10K views &#183; 1 day ago
+                    </p>
+              </div>
+          </div>
+      </div>
+
+      <div class="video-preview">
+        <div class="thumbnail-row">
+          <img class="thumbnail" src="channel-pictures/thumb9.webp">
+          <div class="video-time">15:00</div>
+        </div>
+          <div class="video-info-grid">
+            <div class="channel-picture">
+              <img class="profile-picture" src="channel-pictures/channel9.jpeg">
+            </div>
+              <div class="video-info">
+                <p class="video-title">
+                  I Stared a New club
+                </p>
+                  <p class="video-author">
+                   S2G
+                  </p> 
+                    <p class="video-stats">
+                      1M views &#183; 11 months ago
+                    </p>
+              </div>
+          </div>
+      </div>
+
+      <div class="video-preview">
+        <div class="thumbnail-row">
+          <img class="thumbnail" src="channel-pictures/thumb10.webp">
+          <div class="video-time">4:36</div>
+        </div>
+          <div class="video-info-grid">
+            <div class="channel-picture">
+              <img class="profile-picture" src="channel-pictures/channel10.jpeg">
+            </div>
+              <div class="video-info">
+                <p class="video-title">
+                  A R M -bgm
+                </p>
+                  <p class="video-author">
+                    ARM movie
+                  </p> 
+                    <p class="video-stats">
+                      1M views &#183; 2 months ago
+                    </p>
+              </div>
+          </div>
+      </div>
+
+      <div class="video-preview">
+        <div class="thumbnail-row">
+          <img class="thumbnail" src="channel-pictures/thumb11.webp">
+          <div class="video-time">30:16</div>
+        </div>
+          <div class="video-info-grid">
+            <div class="channel-picture">
+              <img class="profile-picture" src="channel-pictures/channel11.jpeg">
+            </div>
+              <div class="video-info">
+                <p class="video-title">
+                  Exclusive Interview with GABRI!
+                </p>
+                  <p class="video-author">
+                    SAINA SOUTH
+                  </p> 
+                    <p class="video-stats">
+                      10K views &#183; 2 months ago
+                    </p>
+              </div>
+          </div>
+      </div>
+
+      <div class="video-preview">
+        <div class="thumbnail-row">
+          <img class="thumbnail" src="channel-pictures/thumb12.webp">
+          <div class="video-time">5:20:15</div>
+        </div>
+          <div class="video-info-grid">
+            <div class="channel-picture">
+              <img class="profile-picture" src="channel-pictures/channel12.jpeg">
+            </div>
+              <div class="video-info">
+                <p class="video-title">
+                  FULL STACK DEVELOPMENT COURSE
+                </p>
+                  <p class="video-author">
+                    JavaSript Mastery
+                  </p> 
+                    <p class="video-stats">
+                      100K views &#183; 10 months ago
+                    </p>
+              </div>
+          </div>
+      </div>
+
+    </section>
+
+
+
+
+   </main>
